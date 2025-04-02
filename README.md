@@ -1,41 +1,73 @@
-This is a AI prompt platform where people can discover and share prompts with each other.
+PromptCraft
 
-PromptCraft, an AI-powered platform designed to bridge the gap for AI enthusiasts, content creators, and developers who are on the hunt for high-quality AI prompts. As AI models like ChatGPT, DALL·E, and Midjourney gain popularity, one common challenge is finding effective and optimized prompts. PromptCraft is here to solve that issue by creating a collaborative space where users can discover, share, and search for the best AI prompts.
+Introduction
 
-below is the documentation for Next.js as I used it in this project.
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+PromptCraft is a web-based application designed to help users save and manage AI prompts efficiently. The app allows users to input, store, and delete prompts, providing a seamless experience for AI-powered content generation.
 
-## Getting Started
+Live Demo
 
-First, run the development server:
+Visit the Deployed Site (https://promptcraft-neon.vercel.app/)
 
-```bash
+Final Project Blog Article
+
+Read the Project Blog (https://www.linkedin.com/article/edit/7313338655207530499/)
+
+Author(s)
+
+Lesego Nkosi: www.linkedin.com/in/lesego-nkosi-
+
+Installation
+
+To run the project locally, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/SegoNkosi/promptcraft.git
+
+Navigate to the project directory:
+
+cd promptcraft
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the application in your browser at http://localhost:3000.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Enter a prompt in the input field.
 
-## Learn More
+Click the "Save Prompt" button to store it.
 
-To learn more about Next.js, take a look at the following resources:
+View saved prompts in the list.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Delete any prompt by clicking the "Delete" button.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributing
 
-## Deploy on Vercel
+Contributions are welcome! To contribute:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Fork the repository.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Create a new branch: git checkout -b feature-branch.
+
+Make your changes and commit: git commit -m 'Add new feature'.
+
+Push to the branch: git push origin feature-branch.
+
+Open a Pull Request.
+
+Related Projects
+
+Here are some similar projects you might find useful:
+
+Awesome AI Prompt Manager (Replace with related projects if any)
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
